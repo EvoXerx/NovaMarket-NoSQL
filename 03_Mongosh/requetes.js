@@ -11,10 +11,10 @@
 
 db = db.getSiblingDB("NovaMarket");
 
-  //7. Tous les produits, puis seulement nom, prix et catégorie
-  print("\n7a. Tous les produits");
-  // on met _id à 0 pour ne pas afficher l'identifiant interne de MongoDB
-  db.produits.find({}, { _id: 0 }).forEach(printjson);
+//7. Tous les produits, puis seulement nom, prix et catégorie
+print("\n7a. Tous les produits");
+// on met _id à 0 pour ne pas afficher l'identifiant interne de MongoDB
+db.produits.find({}, { _id: 0 }).forEach(printjson);
 
 print("\n7b. Nom, prix et catégorie");
 // on met _id à 0 pour ne pas afficher l'identifiant et on ne sélectionne que les champs libelle, prix et categorie
