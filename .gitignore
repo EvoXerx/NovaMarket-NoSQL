@@ -1,0 +1,13 @@
+# Environnements installés localement
+.venv/
+.tools/
+__pycache__/
+
+# Documents du cours (non redistribués)
+*.pdf
+image.png
+
+# Fichiers générés
+*.zip
+sortie_*.txt
+captures/journal*.txt

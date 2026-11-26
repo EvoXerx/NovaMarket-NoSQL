@@ -1,0 +1,212 @@
+[
+  {
+    "id_produit": "P001",
+    "libelle": "Portable Nova 14 pouces",
+    "categorie": "ORDI",
+    "prix": 899.0,
+    "stock": 12
+  },
+  {
+    "id_produit": "P002",
+    "libelle": "Portable Nova Pro 16 pouces",
+    "categorie": "ORDI",
+    "prix": 1499.0,
+    "stock": 4
+  },
+  {
+    "id_produit": "P003",
+    "libelle": "Ultrabook Zenith 13",
+    "categorie": "ORDI",
+    "prix": 1099.0,
+    "stock": 7
+  },
+  {
+    "id_produit": "P004",
+    "libelle": "Portable Gamer Titan 17",
+    "categorie": "ORDI",
+    "prix": 1899.0,
+    "stock": 2
+  },
+  {
+    "id_produit": "P005",
+    "libelle": "Chromebook Edu 11",
+    "categorie": "ORDI",
+    "prix": 329.0,
+    "stock": 15
+  },
+  {
+    "id_produit": "P006",
+    "libelle": "Smartphone Astra S",
+    "categorie": "TEL",
+    "prix": 699.0,
+    "stock": 20
+  },
+  {
+    "id_produit": "P007",
+    "libelle": "Smartphone Astra Max",
+    "categorie": "TEL",
+    "prix": 1199.0,
+    "stock": 6
+  },
+  {
+    "id_produit": "P008",
+    "libelle": "Smartphone Lumo A2",
+    "categorie": "TEL",
+    "prix": 249.0,
+    "stock": 30
+  },
+  {
+    "id_produit": "P009",
+    "libelle": "Smartphone Lumo A5",
+    "categorie": "TEL",
+    "prix": 399.0,
+    "stock": 0
+  },
+  {
+    "id_produit": "P010",
+    "libelle": "Smartphone Pliable Fold X",
+    "categorie": "TEL",
+    "prix": 1799.0,
+    "stock": 3
+  },
+  {
+    "id_produit": "P011",
+    "libelle": "Écran 24 pouces Full HD",
+    "categorie": "ECRAN",
+    "prix": 149.0,
+    "stock": 25
+  },
+  {
+    "id_produit": "P012",
+    "libelle": "Écran 27 pouces QHD",
+    "categorie": "ECRAN",
+    "prix": 299.0,
+    "stock": 14
+  },
+  {
+    "id_produit": "P013",
+    "libelle": "Écran 32 pouces 4K",
+    "categorie": "ECRAN",
+    "prix": 549.0,
+    "stock": 5
+  },
+  {
+    "id_produit": "P014",
+    "libelle": "Écran incurvé 34 pouces",
+    "categorie": "ECRAN",
+    "prix": 699.0,
+    "stock": 1
+  },
+  {
+    "id_produit": "P015",
+    "libelle": "Écran portable 15 pouces",
+    "categorie": "ECRAN",
+    "prix": 199.0,
+    "stock": 9
+  },
+  {
+    "id_produit": "P016",
+    "libelle": "Casque sans fil Calme",
+    "categorie": "AUDIO",
+    "prix": 249.0,
+    "stock": 18
+  },
+  {
+    "id_produit": "P017",
+    "libelle": "Écouteurs Bluetooth Mini",
+    "categorie": "AUDIO",
+    "prix": 79.0,
+    "stock": 40
+  },
+  {
+    "id_produit": "P018",
+    "libelle": "Enceinte connectée Salon",
+    "categorie": "AUDIO",
+    "prix": 129.0,
+    "stock": 11
+  },
+  {
+    "id_produit": "P019",
+    "libelle": "Barre de son TV",
+    "categorie": "AUDIO",
+    "prix": 299.0,
+    "stock": 3
+  },
+  {
+    "id_produit": "P020",
+    "libelle": "Casque gaming Arena",
+    "categorie": "AUDIO",
+    "prix": 89.0,
+    "stock": 22
+  },
+  {
+    "id_produit": "P021",
+    "libelle": "Clavier mécanique RGB",
+    "categorie": "PERIPH",
+    "prix": 119.0,
+    "stock": 16
+  },
+  {
+    "id_produit": "P022",
+    "libelle": "Souris sans fil Ergo",
+    "categorie": "PERIPH",
+    "prix": 49.0,
+    "stock": 35
+  },
+  {
+    "id_produit": "P023",
+    "libelle": "Webcam Full HD",
+    "categorie": "PERIPH",
+    "prix": 69.0,
+    "stock": 4
+  },
+  {
+    "id_produit": "P024",
+    "libelle": "Station d'accueil USB-C",
+    "categorie": "PERIPH",
+    "prix": 159.0,
+    "stock": 8
+  },
+  {
+    "id_produit": "P025",
+    "libelle": "Tablette graphique Pro",
+    "categorie": "PERIPH",
+    "prix": 349.0,
+    "stock": 2
+  },
+  {
+    "id_produit": "P026",
+    "libelle": "SSD externe 1 To",
+    "categorie": "STOCK",
+    "prix": 109.0,
+    "stock": 19
+  },
+  {
+    "id_produit": "P027",
+    "libelle": "SSD interne NVMe 2 To",
+    "categorie": "STOCK",
+    "prix": 179.0,
+    "stock": 10
+  },
+  {
+    "id_produit": "P028",
+    "libelle": "Disque dur 4 To",
+    "categorie": "STOCK",
+    "prix": 99.0,
+    "stock": 13
+  },
+  {
+    "id_produit": "P029",
+    "libelle": "Clé USB 128 Go",
+    "categorie": "STOCK",
+    "prix": 19.9,
+    "stock": 60
+  },
+  {
+    "id_produit": "P030",
+    "libelle": "NAS 2 baies",
+    "categorie": "STOCK",
+    "prix": 389.0,
+    "stock": 0
+  }
+]

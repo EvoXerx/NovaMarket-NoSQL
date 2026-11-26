@@ -1,0 +1,32 @@
+[
+  {
+    "code": "ORDI",
+    "libelle": "Ordinateurs portables",
+    "description": "PC et Mac portables"
+  },
+  {
+    "code": "TEL",
+    "libelle": "Smartphones",
+    "description": "Téléphones mobiles"
+  },
+  {
+    "code": "ECRAN",
+    "libelle": "Écrans",
+    "description": "Moniteurs pour ordinateur"
+  },
+  {
+    "code": "AUDIO",
+    "libelle": "Audio",
+    "description": "Casques, écouteurs et enceintes"
+  },
+  {
+    "code": "PERIPH",
+    "libelle": "Périphériques",
+    "description": "Claviers, souris, webcams"
+  },
+  {
+    "code": "STOCK",
+    "libelle": "Stockage",
+    "description": "Disques SSD, disques durs, clés USB"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id_client": "C001",
+    "nom": "Martin",
+    "prenom": "Lucas",
+    "email": "lucas.martin@exemple.fr",
+    "ville": "Paris",
+    "date_inscription": {
+      "$date": "2025-01-23T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C002",
+    "nom": "Bernard",
+    "prenom": "Emma",
+    "email": "emma.bernard@exemple.fr",
+    "ville": "Lyon",
+    "date_inscription": {
+      "$date": "2025-02-09T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C003",
+    "nom": "Petit",
+    "prenom": "Hugo",
+    "email": "hugo.petit@exemple.fr",
+    "ville": "Marseille",
+    "date_inscription": {
+      "$date": "2025-02-26T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C004",
+    "nom": "Durand",
+    "prenom": "Chloé",
+    "email": "chloe.durand@exemple.fr",
+    "ville": "Lille",
+    "date_inscription": {
+      "$date": "2025-03-15T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C005",
+    "nom": "Leroy",
+    "prenom": "Nathan",
+    "email": "nathan.leroy@exemple.fr",
+    "ville": "Bordeaux",
+    "date_inscription": {
+      "$date": "2025-04-01T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C006",
+    "nom": "Moreau",
+    "prenom": "Léa",
+    "email": "lea.moreau@exemple.fr",
+    "ville": "Nantes",
+    "date_inscription": {
+      "$date": "2025-04-18T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C007",
+    "nom": "Simon",
+    "prenom": "Louis",
+    "email": "louis.simon@exemple.fr",
+    "ville": "Paris",
+    "date_inscription": {
+      "$date": "2025-05-05T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C008",
+    "nom": "Laurent",
+    "prenom": "Manon",
+    "email": "manon.laurent@exemple.fr",
+    "ville": "Lyon",
+    "date_inscription": {
+      "$date": "2025-05-22T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C009",
+    "nom": "Michel",
+    "prenom": "Jules",
+    "email": "jules.michel@exemple.fr",
+    "ville": "Marseille",
+    "date_inscription": {
+      "$date": "2025-06-08T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C010",
+    "nom": "Garcia",
+    "prenom": "Inès",
+    "email": "ines.garcia@exemple.fr",
+    "ville": "Lille",
+    "date_inscription": {
+      "$date": "2025-06-25T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C011",
+    "nom": "Roux",
+    "prenom": "Adam",
+    "email": "adam.roux@exemple.fr",
+    "ville": "Bordeaux",
+    "date_inscription": {
+      "$date": "2025-07-12T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C012",
+    "nom": "Fournier",
+    "prenom": "Camille",
+    "email": "camille.fournier@exemple.fr",
+    "ville": "Nantes",
+    "date_inscription": {
+      "$date": "2025-07-29T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C013",
+    "nom": "Girard",
+    "prenom": "Noah",
+    "email": "noah.girard@exemple.fr",
+    "ville": "Paris",
+    "date_inscription": {
+      "$date": "2025-08-15T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C014",
+    "nom": "Bonnet",
+    "prenom": "Sarah",
+    "email": "sarah.bonnet@exemple.fr",
+    "ville": "Lyon",
+    "date_inscription": {
+      "$date": "2025-09-01T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C015",
+    "nom": "Dupont",
+    "prenom": "Théo",
+    "email": "theo.dupont@exemple.fr",
+    "ville": "Marseille",
+    "date_inscription": {
+      "$date": "2025-09-18T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C016",
+    "nom": "Lambert",
+    "prenom": "Jade",
+    "email": "jade.lambert@exemple.fr",
+    "ville": "Lille",
+    "date_inscription": {
+      "$date": "2025-10-05T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C017",
+    "nom": "Fontaine",
+    "prenom": "Raphaël",
+    "email": "raphaël.fontaine@exemple.fr",
+    "ville": "Bordeaux",
+    "date_inscription": {
+      "$date": "2025-10-22T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C018",
+    "nom": "Rousseau",
+    "prenom": "Lina",
+    "email": "lina.rousseau@exemple.fr",
+    "ville": "Nantes",
+    "date_inscription": {
+      "$date": "2025-11-08T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C019",
+    "nom": "Vincent",
+    "prenom": "Tom",
+    "email": "tom.vincent@exemple.fr",
+    "ville": "Paris",
+    "date_inscription": {
+      "$date": "2025-11-25T00:00:00Z"
+    }
+  },
+  {
+    "id_client": "C020",
+    "nom": "Muller",
+    "prenom": "Zoé",
+    "email": "zoe.muller@exemple.fr",
+    "ville": "Lyon",
+    "date_inscription": {
+      "$date": "2025-12-12T00:00:00Z"
+    }
+  }
+]

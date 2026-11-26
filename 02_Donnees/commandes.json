@@ -1,0 +1,1161 @@
+[
+  {
+    "id_commande": "CMD001",
+    "id_client": "C011",
+    "date_commande": {
+      "$date": "2026-09-01T20:13:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P027",
+        "libelle": "SSD interne NVMe 2 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 179.0
+      }
+    ],
+    "total": 179.0
+  },
+  {
+    "id_commande": "CMD002",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-09-02T18:06:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 2,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 3798.0
+  },
+  {
+    "id_commande": "CMD003",
+    "id_client": "C015",
+    "date_commande": {
+      "$date": "2026-09-03T19:39:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 699.0
+      }
+    ],
+    "total": 699.0
+  },
+  {
+    "id_commande": "CMD004",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-09-08T14:24:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P001",
+        "libelle": "Portable Nova 14 pouces",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 899.0
+      },
+      {
+        "id_produit": "P018",
+        "libelle": "Enceinte connectée Salon",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 129.0
+      }
+    ],
+    "total": 1028.0
+  },
+  {
+    "id_commande": "CMD005",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-09-10T10:16:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P011",
+        "libelle": "Écran 24 pouces Full HD",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 149.0
+      },
+      {
+        "id_produit": "P021",
+        "libelle": "Clavier mécanique RGB",
+        "categorie": "PERIPH",
+        "quantite": 3,
+        "prix_unitaire": 119.0
+      }
+    ],
+    "total": 506.0
+  },
+  {
+    "id_commande": "CMD006",
+    "id_client": "C013",
+    "date_commande": {
+      "$date": "2026-09-10T19:04:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P006",
+        "libelle": "Smartphone Astra S",
+        "categorie": "TEL",
+        "quantite": 2,
+        "prix_unitaire": 749.0
+      },
+      {
+        "id_produit": "P019",
+        "libelle": "Barre de son TV",
+        "categorie": "AUDIO",
+        "quantite": 3,
+        "prix_unitaire": 299.0
+      }
+    ],
+    "total": 2395.0
+  },
+  {
+    "id_commande": "CMD007",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-09-16T05:32:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P024",
+        "libelle": "Station d'accueil USB-C",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 159.0
+      }
+    ],
+    "total": 159.0
+  },
+  {
+    "id_commande": "CMD008",
+    "id_client": "C003",
+    "date_commande": {
+      "$date": "2026-09-22T19:28:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P008",
+        "libelle": "Smartphone Lumo A2",
+        "categorie": "TEL",
+        "quantite": 1,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 249.0
+  },
+  {
+    "id_commande": "CMD009",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-09-23T11:39:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P025",
+        "libelle": "Tablette graphique Pro",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 349.0
+      },
+      {
+        "id_produit": "P012",
+        "libelle": "Écran 27 pouces QHD",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 329.0
+      }
+    ],
+    "total": 678.0
+  },
+  {
+    "id_commande": "CMD010",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-09-25T18:42:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P024",
+        "libelle": "Station d'accueil USB-C",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 159.0
+      },
+      {
+        "id_produit": "P017",
+        "libelle": "Écouteurs Bluetooth Mini",
+        "categorie": "AUDIO",
+        "quantite": 3,
+        "prix_unitaire": 79.0
+      },
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 3,
+        "prix_unitaire": 699.0
+      }
+    ],
+    "total": 2493.0
+  },
+  {
+    "id_commande": "CMD011",
+    "id_client": "C006",
+    "date_commande": {
+      "$date": "2026-09-27T01:56:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P027",
+        "libelle": "SSD interne NVMe 2 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 179.0
+      },
+      {
+        "id_produit": "P016",
+        "libelle": "Casque sans fil Calme",
+        "categorie": "AUDIO",
+        "quantite": 2,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 677.0
+  },
+  {
+    "id_commande": "CMD012",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-09-28T19:19:00Z"
+    },
+    "statut": "annulee",
+    "lignes": [
+      {
+        "id_produit": "P007",
+        "libelle": "Smartphone Astra Max",
+        "categorie": "TEL",
+        "quantite": 1,
+        "prix_unitaire": 1199.0
+      }
+    ],
+    "total": 1199.0
+  },
+  {
+    "id_commande": "CMD013",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-09-30T15:43:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P007",
+        "libelle": "Smartphone Astra Max",
+        "categorie": "TEL",
+        "quantite": 1,
+        "prix_unitaire": 1199.0
+      },
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 2,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 4997.0
+  },
+  {
+    "id_commande": "CMD014",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-09-30T20:07:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 1899.0
+  },
+  {
+    "id_commande": "CMD015",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-10-01T18:22:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 2,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 3798.0
+  },
+  {
+    "id_commande": "CMD016",
+    "id_client": "C007",
+    "date_commande": {
+      "$date": "2026-10-04T09:02:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      },
+      {
+        "id_produit": "P001",
+        "libelle": "Portable Nova 14 pouces",
+        "categorie": "ORDI",
+        "quantite": 3,
+        "prix_unitaire": 899.0
+      }
+    ],
+    "total": 2766.0
+  },
+  {
+    "id_commande": "CMD017",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-10-08T20:23:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P001",
+        "libelle": "Portable Nova 14 pouces",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 899.0
+      },
+      {
+        "id_produit": "P013",
+        "libelle": "Écran 32 pouces 4K",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 549.0
+      },
+      {
+        "id_produit": "P005",
+        "libelle": "Chromebook Edu 11",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 329.0
+      }
+    ],
+    "total": 1777.0
+  },
+  {
+    "id_commande": "CMD018",
+    "id_client": "C013",
+    "date_commande": {
+      "$date": "2026-10-09T06:42:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P027",
+        "libelle": "SSD interne NVMe 2 To",
+        "categorie": "STOCK",
+        "quantite": 2,
+        "prix_unitaire": 179.0
+      }
+    ],
+    "total": 358.0
+  },
+  {
+    "id_commande": "CMD019",
+    "id_client": "C015",
+    "date_commande": {
+      "$date": "2026-10-09T17:19:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 2,
+        "prix_unitaire": 69.0
+      },
+      {
+        "id_produit": "P011",
+        "libelle": "Écran 24 pouces Full HD",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 149.0
+      },
+      {
+        "id_produit": "P019",
+        "libelle": "Barre de son TV",
+        "categorie": "AUDIO",
+        "quantite": 3,
+        "prix_unitaire": 299.0
+      }
+    ],
+    "total": 1184.0
+  },
+  {
+    "id_commande": "CMD020",
+    "id_client": "C008",
+    "date_commande": {
+      "$date": "2026-10-10T17:15:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P001",
+        "libelle": "Portable Nova 14 pouces",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 899.0
+      }
+    ],
+    "total": 899.0
+  },
+  {
+    "id_commande": "CMD021",
+    "id_client": "C012",
+    "date_commande": {
+      "$date": "2026-10-15T04:12:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 1899.0
+  },
+  {
+    "id_commande": "CMD022",
+    "id_client": "C014",
+    "date_commande": {
+      "$date": "2026-10-15T09:21:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 699.0
+      }
+    ],
+    "total": 699.0
+  },
+  {
+    "id_commande": "CMD023",
+    "id_client": "C007",
+    "date_commande": {
+      "$date": "2026-10-15T20:26:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P026",
+        "libelle": "SSD externe 1 To",
+        "categorie": "STOCK",
+        "quantite": 2,
+        "prix_unitaire": 109.0
+      },
+      {
+        "id_produit": "P028",
+        "libelle": "Disque dur 4 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 99.0
+      }
+    ],
+    "total": 317.0
+  },
+  {
+    "id_commande": "CMD024",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-10-17T17:15:00Z"
+    },
+    "statut": "annulee",
+    "lignes": [
+      {
+        "id_produit": "P012",
+        "libelle": "Écran 27 pouces QHD",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 299.0
+      },
+      {
+        "id_produit": "P016",
+        "libelle": "Casque sans fil Calme",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 548.0
+  },
+  {
+    "id_commande": "CMD025",
+    "id_client": "C007",
+    "date_commande": {
+      "$date": "2026-10-20T09:56:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P015",
+        "libelle": "Écran portable 15 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 199.0
+      },
+      {
+        "id_produit": "P028",
+        "libelle": "Disque dur 4 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 99.0
+      }
+    ],
+    "total": 298.0
+  },
+  {
+    "id_commande": "CMD026",
+    "id_client": "C013",
+    "date_commande": {
+      "$date": "2026-10-21T00:14:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P013",
+        "libelle": "Écran 32 pouces 4K",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 549.0
+      },
+      {
+        "id_produit": "P026",
+        "libelle": "SSD externe 1 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 109.0
+      },
+      {
+        "id_produit": "P025",
+        "libelle": "Tablette graphique Pro",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 349.0
+      }
+    ],
+    "total": 1007.0
+  },
+  {
+    "id_commande": "CMD027",
+    "id_client": "C011",
+    "date_commande": {
+      "$date": "2026-10-21T11:47:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 699.0
+      },
+      {
+        "id_produit": "P024",
+        "libelle": "Station d'accueil USB-C",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 159.0
+      }
+    ],
+    "total": 858.0
+  },
+  {
+    "id_commande": "CMD028",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-10-23T14:51:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P015",
+        "libelle": "Écran portable 15 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 199.0
+      },
+      {
+        "id_produit": "P010",
+        "libelle": "Smartphone Pliable Fold X",
+        "categorie": "TEL",
+        "quantite": 2,
+        "prix_unitaire": 1799.0
+      }
+    ],
+    "total": 3797.0
+  },
+  {
+    "id_commande": "CMD029",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-10-24T04:40:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P011",
+        "libelle": "Écran 24 pouces Full HD",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 149.0
+      },
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 3,
+        "prix_unitaire": 699.0
+      },
+      {
+        "id_produit": "P021",
+        "libelle": "Clavier mécanique RGB",
+        "categorie": "PERIPH",
+        "quantite": 2,
+        "prix_unitaire": 119.0
+      }
+    ],
+    "total": 2484.0
+  },
+  {
+    "id_commande": "CMD030",
+    "id_client": "C008",
+    "date_commande": {
+      "$date": "2026-10-25T02:24:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P016",
+        "libelle": "Casque sans fil Calme",
+        "categorie": "AUDIO",
+        "quantite": 3,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 747.0
+  },
+  {
+    "id_commande": "CMD031",
+    "id_client": "C012",
+    "date_commande": {
+      "$date": "2026-10-26T06:31:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P027",
+        "libelle": "SSD interne NVMe 2 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 179.0
+      }
+    ],
+    "total": 179.0
+  },
+  {
+    "id_commande": "CMD032",
+    "id_client": "C009",
+    "date_commande": {
+      "$date": "2026-10-27T15:17:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P028",
+        "libelle": "Disque dur 4 To",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 99.0
+      }
+    ],
+    "total": 99.0
+  },
+  {
+    "id_commande": "CMD033",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-10-28T02:42:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      },
+      {
+        "id_produit": "P012",
+        "libelle": "Écran 27 pouces QHD",
+        "categorie": "ECRAN",
+        "quantite": 3,
+        "prix_unitaire": 299.0
+      }
+    ],
+    "total": 966.0
+  },
+  {
+    "id_commande": "CMD034",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-10-29T04:15:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 2,
+        "prix_unitaire": 699.0
+      },
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      },
+      {
+        "id_produit": "P025",
+        "libelle": "Tablette graphique Pro",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 349.0
+      }
+    ],
+    "total": 1816.0
+  },
+  {
+    "id_commande": "CMD035",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-11-04T01:46:00Z"
+    },
+    "statut": "livree",
+    "lignes": [
+      {
+        "id_produit": "P018",
+        "libelle": "Enceinte connectée Salon",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 129.0
+      },
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      }
+    ],
+    "total": 198.0
+  },
+  {
+    "id_commande": "CMD036",
+    "id_client": "C016",
+    "date_commande": {
+      "$date": "2026-11-05T19:51:00Z"
+    },
+    "statut": "annulee",
+    "lignes": [
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 2,
+        "prix_unitaire": 699.0
+      },
+      {
+        "id_produit": "P015",
+        "libelle": "Écran portable 15 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 199.0
+      }
+    ],
+    "total": 1597.0
+  },
+  {
+    "id_commande": "CMD037",
+    "id_client": "C011",
+    "date_commande": {
+      "$date": "2026-11-06T16:42:00Z"
+    },
+    "statut": "expediee",
+    "lignes": [
+      {
+        "id_produit": "P020",
+        "libelle": "Casque gaming Arena",
+        "categorie": "AUDIO",
+        "quantite": 3,
+        "prix_unitaire": 89.0
+      },
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      }
+    ],
+    "total": 336.0
+  },
+  {
+    "id_commande": "CMD038",
+    "id_client": "C003",
+    "date_commande": {
+      "$date": "2026-11-11T08:17:00Z"
+    },
+    "statut": "expediee",
+    "lignes": [
+      {
+        "id_produit": "P003",
+        "libelle": "Ultrabook Zenith 13",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 1099.0
+      }
+    ],
+    "total": 1099.0
+  },
+  {
+    "id_commande": "CMD039",
+    "id_client": "C015",
+    "date_commande": {
+      "$date": "2026-11-14T09:55:00Z"
+    },
+    "statut": "expediee",
+    "lignes": [
+      {
+        "id_produit": "P018",
+        "libelle": "Enceinte connectée Salon",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 129.0
+      }
+    ],
+    "total": 129.0
+  },
+  {
+    "id_commande": "CMD040",
+    "id_client": "C006",
+    "date_commande": {
+      "$date": "2026-11-16T22:33:00Z"
+    },
+    "statut": "payee",
+    "lignes": [
+      {
+        "id_produit": "P004",
+        "libelle": "Portable Gamer Titan 17",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 1899.0
+      }
+    ],
+    "total": 1899.0
+  },
+  {
+    "id_commande": "CMD041",
+    "id_client": "C004",
+    "date_commande": {
+      "$date": "2026-11-17T22:25:00Z"
+    },
+    "statut": "payee",
+    "lignes": [
+      {
+        "id_produit": "P008",
+        "libelle": "Smartphone Lumo A2",
+        "categorie": "TEL",
+        "quantite": 1,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 249.0
+  },
+  {
+    "id_commande": "CMD042",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-11-19T21:18:00Z"
+    },
+    "statut": "payee",
+    "lignes": [
+      {
+        "id_produit": "P005",
+        "libelle": "Chromebook Edu 11",
+        "categorie": "ORDI",
+        "quantite": 1,
+        "prix_unitaire": 329.0
+      }
+    ],
+    "total": 329.0
+  },
+  {
+    "id_commande": "CMD043",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-11-20T06:03:00Z"
+    },
+    "statut": "payee",
+    "lignes": [
+      {
+        "id_produit": "P024",
+        "libelle": "Station d'accueil USB-C",
+        "categorie": "PERIPH",
+        "quantite": 2,
+        "prix_unitaire": 159.0
+      },
+      {
+        "id_produit": "P002",
+        "libelle": "Portable Nova Pro 16 pouces",
+        "categorie": "ORDI",
+        "quantite": 3,
+        "prix_unitaire": 1499.0
+      },
+      {
+        "id_produit": "P025",
+        "libelle": "Tablette graphique Pro",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 349.0
+      }
+    ],
+    "total": 5164.0
+  },
+  {
+    "id_commande": "CMD044",
+    "id_client": "C010",
+    "date_commande": {
+      "$date": "2026-11-21T06:54:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P012",
+        "libelle": "Écran 27 pouces QHD",
+        "categorie": "ECRAN",
+        "quantite": 3,
+        "prix_unitaire": 299.0
+      },
+      {
+        "id_produit": "P020",
+        "libelle": "Casque gaming Arena",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 89.0
+      }
+    ],
+    "total": 986.0
+  },
+  {
+    "id_commande": "CMD045",
+    "id_client": "C014",
+    "date_commande": {
+      "$date": "2026-11-21T19:41:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P013",
+        "libelle": "Écran 32 pouces 4K",
+        "categorie": "ECRAN",
+        "quantite": 3,
+        "prix_unitaire": 549.0
+      }
+    ],
+    "total": 1647.0
+  },
+  {
+    "id_commande": "CMD046",
+    "id_client": "C002",
+    "date_commande": {
+      "$date": "2026-11-22T03:04:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P023",
+        "libelle": "Webcam Full HD",
+        "categorie": "PERIPH",
+        "quantite": 1,
+        "prix_unitaire": 69.0
+      }
+    ],
+    "total": 69.0
+  },
+  {
+    "id_commande": "CMD047",
+    "id_client": "C009",
+    "date_commande": {
+      "$date": "2026-11-23T20:12:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P029",
+        "libelle": "Clé USB 128 Go",
+        "categorie": "STOCK",
+        "quantite": 1,
+        "prix_unitaire": 19.9
+      },
+      {
+        "id_produit": "P015",
+        "libelle": "Écran portable 15 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 199.0
+      },
+      {
+        "id_produit": "P007",
+        "libelle": "Smartphone Astra Max",
+        "categorie": "TEL",
+        "quantite": 1,
+        "prix_unitaire": 1199.0
+      }
+    ],
+    "total": 1417.9
+  },
+  {
+    "id_commande": "CMD048",
+    "id_client": "C009",
+    "date_commande": {
+      "$date": "2026-11-23T21:53:00Z"
+    },
+    "statut": "annulee",
+    "lignes": [
+      {
+        "id_produit": "P019",
+        "libelle": "Barre de son TV",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 299.0
+      },
+      {
+        "id_produit": "P008",
+        "libelle": "Smartphone Lumo A2",
+        "categorie": "TEL",
+        "quantite": 2,
+        "prix_unitaire": 249.0
+      },
+      {
+        "id_produit": "P014",
+        "libelle": "Écran incurvé 34 pouces",
+        "categorie": "ECRAN",
+        "quantite": 1,
+        "prix_unitaire": 699.0
+      }
+    ],
+    "total": 1496.0
+  },
+  {
+    "id_commande": "CMD049",
+    "id_client": "C014",
+    "date_commande": {
+      "$date": "2026-11-24T16:22:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P028",
+        "libelle": "Disque dur 4 To",
+        "categorie": "STOCK",
+        "quantite": 2,
+        "prix_unitaire": 99.0
+      },
+      {
+        "id_produit": "P016",
+        "libelle": "Casque sans fil Calme",
+        "categorie": "AUDIO",
+        "quantite": 2,
+        "prix_unitaire": 249.0
+      }
+    ],
+    "total": 696.0
+  },
+  {
+    "id_commande": "CMD050",
+    "id_client": "C011",
+    "date_commande": {
+      "$date": "2026-11-25T10:55:00Z"
+    },
+    "statut": "en_attente",
+    "lignes": [
+      {
+        "id_produit": "P017",
+        "libelle": "Écouteurs Bluetooth Mini",
+        "categorie": "AUDIO",
+        "quantite": 1,
+        "prix_unitaire": 79.0
+      },
+      {
+        "id_produit": "P026",
+        "libelle": "SSD externe 1 To",
+        "categorie": "STOCK",
+        "quantite": 2,
+        "prix_unitaire": 109.0
+      }
+    ],
+    "total": 297.0
+  }
+]
