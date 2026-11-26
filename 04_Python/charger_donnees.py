@@ -1,19 +1,13 @@
-"""Chargement (et remise à zéro) du jeu de données NovaMarket.
-
-Chaque exécution vide les 4 collections puis réinsère les fichiers JSON :
-relancer le script ne crée donc jamais de doublons.
-
-Lancement : python charger_donnees.py
-"""
 from pathlib import Path
 
-from bson import json_util  # installé avec pymongo, lit les dates {"$date": ...}
+from bson import json_util
 from pymongo import ASCENDING
 
 from connexion import connecter
 
 DOSSIER_DONNEES = Path(__file__).resolve().parent.parent / "02_Donnees"
 
+# Chargement des données depuis des fichiers JSON
 # collection : champ identifiant métier (unique)
 COLLECTIONS = {
     "categories": "code",

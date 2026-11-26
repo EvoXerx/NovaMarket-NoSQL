@@ -14,12 +14,9 @@ BASE_PAR_DEFAUT = "NovaMarket"
 
 
 def connecter(uri=None, nom_base=None, delai_ms=3000):
-    """Ouvre la connexion, vérifie le serveur avec ping et renvoie (client, db).
-
-    Renvoie (None, None) si le serveur ne répond pas.
-    """
     uri = uri or os.environ.get("MONGO_URI", URI_PAR_DEFAUT)
     nom_base = nom_base or os.environ.get("NOVAMARKET_DB", BASE_PAR_DEFAUT)
+    # connection a la base de données ajout d'un timeout au cas ou ne serveur ne répond pas
     client = MongoClient(uri, serverSelectionTimeoutMS=delai_ms)
     try:
         client.admin.command("ping")

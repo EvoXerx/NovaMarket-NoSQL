@@ -1,12 +1,15 @@
 """Accès aux données : uniquement des appels PyMongo, sans règle métier ni affichage."""
 import re
 
+#ASCENDING et DESCENDING sont des constantes pour trier les résultats d'une requête
 from pymongo import ASCENDING, DESCENDING
 
+# evite de devoir écrire {"_id": 0}
 SANS_ID = {"_id": 0}
 
+# pas grand chose a expliquer ici juste les fonctions attendent la connexion à la base de données (db) et font des requêtes sur les collections
 
-# ---------- Catégories ----------
+# categorie CRUD
 def categorie_existe(db, code):
     return db.categories.count_documents({"code": code}) == 1
 
@@ -15,7 +18,6 @@ def lister_categories(db):
     return list(db.categories.find({}, SANS_ID).sort("code", ASCENDING))
 
 
-# ---------- Clients ----------
 def trouver_client(db, id_client):
     return db.clients.find_one({"id_client": id_client}, SANS_ID)
 
@@ -24,7 +26,7 @@ def lister_clients(db):
     return list(db.clients.find({}, SANS_ID).sort("id_client", ASCENDING))
 
 
-# ---------- Produits ----------
+# produit CRUD
 def lister_produits(db):
     return list(db.produits.find({}, SANS_ID).sort("id_produit", ASCENDING))
 
@@ -40,9 +42,10 @@ def chercher_produits_mot_cle(db, mot_cle):
 
 
 def inserer_produit(db, produit):
-    db.produits.insert_one(dict(produit))  # copie : insert_one ajoute _id au dictionnaire
+    db.produits.insert_one(dict(produit))
 
 
+# commandes CRUD
 def changer_stock(db, id_produit, nouveau_stock):
     resultat = db.produits.update_one({"id_produit": id_produit},
                                       {"$set": {"stock": nouveau_stock}})
@@ -61,11 +64,11 @@ def produits_sous_seuil(db, seuil):
     return list(db.produits.find({"stock": {"$lt": seuil}}, SANS_ID).sort("stock", ASCENDING))
 
 
-# ---------- Commandes ----------
 def commandes_du_client(db, id_client):
     return list(db.commandes.find({"id_client": id_client}, SANS_ID)
                 .sort("date_commande", DESCENDING))
 
+#commande CRUD
 
 def trouver_commande(db, id_commande):
     return db.commandes.find_one({"id_commande": id_commande}, SANS_ID)
@@ -74,8 +77,7 @@ def trouver_commande(db, id_commande):
 def dernier_id_commande(db):
     for commande in db.commandes.find({}, {"_id": 0, "id_commande": 1}).sort("id_commande", -1).limit(1):
         return commande["id_commande"]
-    return None  # aucune commande dans la base
-
+    return None  
 
 def inserer_commande(db, commande):
     db.commandes.insert_one(dict(commande))
