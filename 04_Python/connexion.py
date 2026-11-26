@@ -1,9 +1,3 @@
-"""Connexion au serveur MongoDB (fonction 22).
-
-L'adresse du serveur n'est pas écrite en dur avec un mot de passe :
-elle est lue dans la variable d'environnement MONGO_URI.
-Sans variable, on utilise le serveur local sans authentification.
-"""
 import os
 
 from pymongo import MongoClient

@@ -1,4 +1,3 @@
-"""Accès aux données : uniquement des appels PyMongo, sans règle métier ni affichage."""
 import re
 
 #ASCENDING et DESCENDING sont des constantes pour trier les résultats d'une requête
