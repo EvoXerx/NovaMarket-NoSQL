@@ -6,7 +6,7 @@
 | `02_Donnees/` | fichiers JSON et procédure de chargement |
 | `03_Mongosh/requetes.js` | les 15 requêtes mongosh |
 | `04_Python/` | application console PyMongo, analyses, tests (voir son README) |
-| `05_Rapport_final.docx`  | résultats, tests, limites, captures |
+| `05_Rapportfinal.docx`  | résultats, tests, limites, captures |
 | `captures/` | captures d'écran et scripts qui les produisent |
 | `tp_librairie.py` | TP PyMongo Librairie (exercice préparatoire) |
 
